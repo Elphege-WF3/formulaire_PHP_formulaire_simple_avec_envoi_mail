@@ -1,0 +1,12 @@
+message reçu sur le site.
+
+nom: test1
+email: test1@gmail.com
+message: test1
+-----------------------
+message reçu sur le site.
+
+nom: test2
+email: test2@gmail.com
+message: test2
+-----------------------
