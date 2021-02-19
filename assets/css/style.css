@@ -67,7 +67,7 @@ form {
 }
 
 input, textarea, button {
-    width: 50%;
+    width: 30%;
     padding: 0.5rem;
     margin: 1rem;
     font-family: monospace;
