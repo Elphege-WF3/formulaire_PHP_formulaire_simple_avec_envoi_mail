@@ -3,8 +3,8 @@ html, body {
     width: 100%;
     height:100%;
     padding: 0;
-    margin:0;
-    font-size:16px;
+    margin: 0;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,11 +13,11 @@ html, body {
 }
 
 img {
-    width:100%;
+    width: 100%;
 }
 
 header, main, footer {
-    padding:1rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -38,8 +38,8 @@ footer {
 }
 
 .header__img {
-    height:100px;
-    width:160px;
+    height: 100px;
+    width: 160px;
     object-fit: cover;
 }
 
@@ -50,10 +50,10 @@ h1 {
 /* MENUS */
 
 nav a {
-    color:white;
+    color: white;
     text-decoration: none;
-    display:inline-block;
-    padding:1rem;
+    display: inline-block;
+    padding: 1rem;
 }
 
 nav a.active {
@@ -67,7 +67,7 @@ form {
 }
 
 input, textarea, button {
-    width: 20%;
+    width: 35%;
     padding: 0.5rem;
     margin: 1rem;
     font-family: monospace;

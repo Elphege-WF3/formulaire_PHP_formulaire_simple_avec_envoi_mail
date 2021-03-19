@@ -16,8 +16,7 @@
                 <textarea name="message" cols="80" rows="10" required placeholder="MESSAGE"></textarea>
             </label>
             <div><button type="submit">ENVOYER LE MESSAGE</button></div>
-            
-            <?php
+<?php
 
 if (count($_POST) == 0) 
 {
@@ -25,13 +24,12 @@ if (count($_POST) == 0)
 }
 else
 {
+    $nom        = $_POST["nom"];
+    $email      = $_POST["email"];
+    $message    = $_POST["message"];
 
-      $nom        = $_POST["nom"];
-      $email      = $_POST["email"];
-      $message    = $_POST["message"];
-
-      $mail = 
-      <<<texte
+    $mail = 
+    <<<texte
       message reçu sur le site.
 
       nom: $nom
@@ -41,18 +39,16 @@ else
 
       texte;
     
-      $headers = 'From: contact@monsite.fr' . "\r\n" .
-                 'Reply-To: no-reply@monsite.fr' . "\r\n" .
-                 'X-Mailer: PHP/' . phpversion();
+    $headers = 'From: contact@monsite.fr' . "\r\n" .
+                'Reply-To: no-reply@monsite.fr' . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
 
-      @mail("prenom.nom@gmail.com", "nouveau message", $mail, $headers);
+    @mail("prenom.nom@gmail.com", "nouveau message", $mail, $headers);
 
     file_put_contents("php/contact.txt", $mail, FILE_APPEND);
 
     echo "<h4>J'ai bien reçu votre message. Merci</h4>";
-
 }
-
 ?>
         </form>
     </article>

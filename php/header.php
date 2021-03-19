@@ -6,11 +6,13 @@
     <title>Formulaire contact</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <img class="header__img" src="./assets/img/logo.jpeg" alt="logo">
         <nav>
-            <?php
+<?php
+
 $a = [
     "#index"     => 'Accueil',
     "#contact"   => 'Contactez-moi',
@@ -23,8 +25,7 @@ foreach($a as $cle => $valeur)
         <<<html
             <a class="active" href="$cle">$valeur</a>
 
-        html;
-    
+        html; 
     }
     else
     {
@@ -33,12 +34,12 @@ foreach($a as $cle => $valeur)
             <a class="" href="$cle">$valeur</a>
     
         html;
-
     }
 }
 ?>
         </nav>
     </header>
-        <main>
-            <h1>Bienvenue</h1>
+
+    <main>
+        <h1>Bienvenue</h1>
        
