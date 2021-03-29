@@ -14,6 +14,7 @@ html, body {
 
 img {
     width: 100%;
+    border: 1px solid black;
 }
 
 header, main, footer {
@@ -43,23 +44,7 @@ footer {
     object-fit: cover;
 }
 
-h1 {
-    color: black;
-}
-
-/* MENUS */
-
-nav a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 1rem;
-}
-
-nav a.active {
-    background-color: black;
-    border: 1px solid white;
-}
+/* FORMULAIRE */
 
 form {
     display: flex;

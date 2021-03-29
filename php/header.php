@@ -10,34 +10,6 @@
 <body>
     <header>
         <img class="header__img" src="./assets/img/logo.jpeg" alt="logo">
-        <nav>
-<?php
-
-$a = [
-    "#index"     => 'Accueil',
-    "#contact"   => 'Contactez-moi',
-];
-foreach($a as $cle => $valeur)
-{
-    if ($valeur == $titre) 
-    {
-        echo 
-        <<<html
-            <a class="active" href="$cle">$valeur</a>
-
-        html; 
-    }
-    else
-    {
-        echo 
-        <<<html
-            <a class="" href="$cle">$valeur</a>
-    
-        html;
-    }
-}
-?>
-        </nav>
     </header>
 
     <main>
