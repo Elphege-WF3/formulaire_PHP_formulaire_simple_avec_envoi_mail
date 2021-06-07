@@ -10,4 +10,10 @@ nom: test2
 email: test2@gmail.com
 message: test2
 -----------------------
+message reçu sur le site.
+
+nom: test3
+email: test3@gmail.com
+message: test3
+-----------------------
 
