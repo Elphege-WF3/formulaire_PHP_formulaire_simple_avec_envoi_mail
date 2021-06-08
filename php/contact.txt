@@ -1,19 +1,7 @@
 message reçu sur le site.
 
-nom: test1
-email: test1@gmail.com
-message: test1
------------------------
-message reçu sur le site.
-
-nom: test2
-email: test2@gmail.com
-message: test2
------------------------
-message reçu sur le site.
-
-nom: test3
-email: test3@gmail.com
-message: test3
+nom: test
+email: test@gmail.com
+message: test
 -----------------------
 
